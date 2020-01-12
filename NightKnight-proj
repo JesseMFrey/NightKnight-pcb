@@ -1,0 +1,6 @@
+schematics NightKnight.sch
+output-name NightKnight
+
+
+elements-dir ~/Documents/Projects/Altos-pcb-lib/packages/
+elements-dir ./packages/

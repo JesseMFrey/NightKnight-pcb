@@ -1,0 +1,10 @@
+
+#pcb backup files
+*.backup
+
+#schematic backup files
+*.sch~
+
+#log file
+log.txt
+
