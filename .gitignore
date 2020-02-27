@@ -8,3 +8,6 @@
 #log file
 log.txt
 
+#output folder for board
+CAM/
+
