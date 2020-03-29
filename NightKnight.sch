@@ -162,32 +162,32 @@ device=RESISTOR
 T 41500 47500 5 10 1 1 90 0 1
 refdes=R1
 T 41200 47300 5 10 1 1 0 0 1
-value=75k
+value=30k
 T 41800 47100 5 10 0 0 0 0 1
 footprint=0805
 T 41800 47100 5 10 0 0 0 0 1
 description=resistor
 T 41800 47100 5 10 0 0 0 0 1
-vendor_part_number=RMCF0805FT75K0CT-ND
+vendor_part_number=A126360CT-ND
 T 41800 47100 5 10 0 0 0 0 1
-mfg_part_number=RMCF0805FT75K0
+mfg_part_number=CRG0805F30K
 }
 C 41800 45800 1 90 0 resistor.sym
 {
 T 41400 46100 5 10 0 0 90 0 1
 device=RESISTOR
-T 41600 46300 5 10 1 1 90 0 1
+T 41500 46300 5 10 1 1 90 0 1
 refdes=R2
-T 41300 46100 5 10 1 1 0 0 1
-value=10k
+T 41200 46100 5 10 1 1 0 0 1
+value=2.4k
 T 41800 45800 5 10 0 0 0 0 1
 footprint=0805
 T 41800 45800 5 10 0 0 0 0 1
 description=resistor
 T 41800 45800 5 10 0 0 0 0 1
-vendor_part_number=RNCP0805FTD10K0CT-ND
+vendor_part_number=RMCF0805JT2K40CT-ND
 T 41800 45800 5 10 0 0 0 0 1
-mfg_part_number=RNCP0805FTD10K0
+mfg_part_number=RMCF0805JT2K40
 }
 N 41700 48000 41700 48200 4
 N 41700 47100 41700 46700 4
@@ -216,11 +216,11 @@ C 52400 44200 1 0 0 INA250Ax.sym
 T 54200 48700 5 10 1 1 0 6 1
 refdes=U9
 T 53300 46200 5 10 0 0 0 0 1
-device=INA250Ax
+device=INA250A1
 T 52400 44200 5 10 0 0 0 0 1
 footprint=16TSSOP
 T 52400 44200 5 10 0 0 0 0 1
-mfg_part_number=INA250A2PWR
+mfg_part_number=INA250A1PWR
 T 52400 44200 5 10 0 0 0 0 1
 vendor_part_number=296-43802-1-ND
 }
@@ -321,15 +321,15 @@ device=RESISTOR
 T 57600 47200 5 10 1 1 90 0 1
 refdes=R6
 T 57200 46900 5 10 1 1 0 0 1
-value=46.4k
+value=30k
 T 57900 46700 5 10 0 0 0 0 1
 footprint=0805
 T 57900 46700 5 10 0 0 0 0 1
 description=resistor
 T 57900 46700 5 10 0 0 0 0 1
-vendor_part_number=RMCF0805FT46K4CT-ND
+vendor_part_number=A126360CT-ND
 T 57900 46700 5 10 0 0 0 0 1
-mfg_part_number=RMCF0805FT46K4
+mfg_part_number=CRG0805F30K
 }
 C 57900 45500 1 90 0 resistor.sym
 {
@@ -338,15 +338,15 @@ device=RESISTOR
 T 57600 46000 5 10 1 1 90 0 1
 refdes=R7
 T 57200 45700 5 10 1 1 0 0 1
-value=26.1k
+value=7.5k
 T 57900 45500 5 10 0 0 0 0 1
 footprint=0805
 T 57900 45500 5 10 0 0 0 0 1
 description=resistor
 T 57900 45500 5 10 0 0 0 0 1
-vendor_part_number=RMCF0805FT26K1CT-ND
+vendor_part_number=RMCF0805FT75K0CT-ND
 T 57900 45500 5 10 0 0 0 0 1
-mfg_part_number=RMCF0805FT26K1
+mfg_part_number=RMCF0805FT75K0
 }
 N 57800 46700 57800 46400 4
 C 57700 45100 1 0 0 gnd-1.sym
@@ -365,7 +365,7 @@ C 51000 43700 1 90 0 resistor.sym
 T 50600 44000 5 10 0 0 90 0 1
 device=RESISTOR
 T 50500 44200 5 10 1 1 0 0 1
-value=10k
+value=20k
 T 50600 43900 5 10 1 1 0 0 1
 refdes=R4
 T 51000 43700 5 10 0 0 0 0 1
@@ -373,9 +373,9 @@ footprint=0805
 T 51000 43700 5 10 0 0 0 0 1
 description=resistor
 T 51000 43700 5 10 0 0 0 0 1
-vendor_part_number=RNCP0805FTD10K0CT-ND
+vendor_part_number=RMCF0805JT20K0CT-ND
 T 51000 43700 5 10 0 0 0 0 1
-mfg_part_number=RNCP0805FTD10K0
+mfg_part_number=RMCF0805JT20K0
 }
 C 51000 42500 1 90 0 resistor.sym
 {
@@ -1333,16 +1333,16 @@ N 75400 40800 75400 39700 4
 N 75400 39700 75900 39700 4
 C 47600 49900 1 0 0 MCP701.sym
 {
-T 48600 51000 5 10 1 1 0 6 1
+T 48700 51000 5 10 1 1 0 6 1
 refdes=U4
 T 48100 50800 5 10 0 0 0 0 1
-device=MCP9701
+device=MCP9700
 T 48100 51000 5 10 0 0 0 0 1
 footprint=SOT23
 T 47600 49900 5 10 0 0 0 0 1
-vendor_part_number=MCP9701T-E/TTCT-ND
+vendor_part_number=MCP9700T-E/TTCT-ND
 T 47600 49900 5 10 0 0 0 0 1
-mfg_part_number=MCP9701T-E/TT
+mfg_part_number=MCP9700T-E/TT
 }
 C 47600 50200 1 90 0 capacitor.sym
 {
